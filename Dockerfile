@@ -36,5 +36,3 @@ VOLUME ["/etc/nginx/sites-enabled", "/etc/nginx/sites-available", "/var/log/ngin
 # expose http & https
 EXPOSE 80
 EXPOSE 443
-
-CMD ["/usr/bin/supervisord"]
